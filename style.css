@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+}
+
+.container {
+    background-image: url(./image/lifeTimeBg.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.time {
+    /* background-color: aquamarine; */
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+}
+
+.year,
+.month,
+.day,
+.hour,
+.minute,
+.second {
+
+    text-align: center;
+}
+
+.year h2,
+.month h2,
+.day h2,
+.hour h2,
+.minute h2,
+.second h2 {
+
+    font-size: 3rem;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    color: white; 
+}
+.year h1,
+.month h1,
+.day h1,
+.hour h1,
+.minute h1,
+.second h1 {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.setting {
+    font-size: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.setting:hover {
+    cursor: pointer;
+}
+
+.ftitem {
+    /* margin-right: 2rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .7rem;
+}
+
+.footer {
+    height: 4rem;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: -5rem;
+
+}
+
+.hide {
+    display: none;
+}
+
+.marginsize {
+    margin-right: 1rem;
+}
+
+button {
+    /* margin-right: 1rem; */
+    height: 2.5rem;
+    width: 4.5rem;
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+}
+
+input {
+    height: 2.5rem;
+    width: 6.5rem;
+    border: none;
+    border-radius: 10px;
+}
+
+@media(max-width:786px) {
+    .time {
+        height: 55rem;
+        flex-direction: column;
+        /* background-color: blue; */
+    }
+
+    .container {
+        height: 150vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .container h1 {
+
+        text-align: center;
+
+    }
+}

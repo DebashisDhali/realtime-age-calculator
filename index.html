@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Life Time Calculator</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="intialTxt">Enter Your Date Of Birth</h1>
+      <div class="afterBtnClick hide">
+        <h1>How Much Life Journey Covered,Till Now</h1>
+        <div class="time">
+          <div class="year">
+            <h2 id="year">0</h2>
+            <h1>Year</h1>
+          </div>
+          <div class="month">
+            <h2 id="month">0</h2>
+            <h1>Month</h1>
+          </div>
+          <div class="day">
+            <h2 id="day">0</h2>
+            <h1>Day</h1>
+          </div>
+          <div class="hour">
+            <h2 id="hour">0</h2>
+            <h1>Hour</h1>
+          </div>
+          <div class="minute">
+            <h2 id="minute">0</h2>
+            <h1>Minute</h1>
+          </div>
+          <div class="second">
+            <h2 id="second">0</h2>
+            <h1>Second</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <!-- Add icon from font awsome -->
+      <div class="setting"><i class="fa-solid fa-gear"></i></div>
+      <div class="ftitem hide">
+        <input type="date" />
+        <button>Add</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
